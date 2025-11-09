@@ -8,7 +8,7 @@ let tareas = [];
 let nextId = 1;
 
 app.get('/', (req, res) => {
-  res.send('API de tareas funcionando 🚀');
+  res.send('API de tareas funcionando.');
 });
 
 app.get('/tareas', (req, res) => {
